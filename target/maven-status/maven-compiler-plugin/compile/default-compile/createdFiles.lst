@@ -1,8 +1,0 @@
-com\actitime\extentreportlistner\ExtentReporterNG.class
-com\actitime\util\WebEventListener.class
-com\actitime\util\TestUtil.class
-com\actitime\pages\HomePage.class
-com\actitime\base\TestBase.class
-com\actitime\pages\ReportsPage.class
-com\actitime\pages\LoginPage.class
-com\actitime\pages\TasksPage.class

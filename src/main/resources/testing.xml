@@ -1,19 +1,17 @@
-<?xml version = "1.0" encoding = "UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name = "UCSC Test Automation Demo">
+<suite name="MIT 4201 Assignment 2">
 
-
-<listeners>
-		<listener class-name="com.actitime.extentreportlistener.ExtentReporterNG" />
+	<listeners>
+		<listener class-name="com.assignment2.extentreportlistener.ExtentReporterNG" />
 	</listeners>
 
-   <test name = "Assignment2">
-      <classes>
-         <class name = "com.actitime.testcases.HomePageTest" />
-         <class name = "com.actitime.testcases.LogonPageTest" />
-      </classes>
-   </test>
-
+	<test name="Assignment2">
+		<classes>
+			<class name="com.assignment2.testcases.HomePageTest" />
+			<class name="com.assignment2.testcases.LoginPageTest" />
+		</classes>
+	</test>
 
 </suite>
